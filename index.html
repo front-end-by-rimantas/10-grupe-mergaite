@@ -5,27 +5,82 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Mergaite</title>
+    <style>
+        body {
+            font-family: monospace;
+        }
+        section {
+            display: inline-block;
+            width: 1000px;
+            /* background-color: red; */
+            margin-left: calc( (100% - 1000px) / 2 );
+        }
+        header {
+            display: inline-block;
+            width: 100%;
+        }
+            header > img {
+                display: inline-block;
+                float: left;
+            }
+            header > nav {
+                display: inline-block;
+                float: right;
+            }
+                nav > a {
+                    display: inline-block;
+                    color: black;
+                    font-size: 20px;
+                    text-decoration: none;
+                    margin-left: 30px;
+                }
+        main {
+            display: inline-block;
+            width: 100%;
+        }
+            div {
+                display: inline-block;
+                width: 50%;
+                float: left;
+            }
+                h1 {
+                    display: inline-block;
+                    font-size: 100px;
+                    color: #a0a0a0;
+                }
+                p {
+                    display: inline-block;
+                    color: #a0a0a0;
+                    font-size: 35px;
+                }
+                div > img {
+                    display: inline-block;
+                    float: right;
+                }
+    </style>
 </head>
 <body>
-    <header>
-        <img src="./img/logo.png" alt="Logo">
-        <nav>
-            <a href="#">Home</a>
-            <a href="#">Tracks</a>
-            <a href="#">Library</a>
-            <a href="#">Community</a>
-            <a href="#">Sign up</a>
-        </nav>
-    </header>
+    <section>
+        <header>
+            <img src="./img/logo.png" alt="Logo">
+            <nav>
+                <a href="#">Home</a>
+                <a href="#">Tracks</a>
+                <a href="#">Library</a>
+                <a href="#">Community</a>
+                <a href="#">Sign up</a>
+            </nav>
+        </header>
 
-    <main>
-        <div>
-            <h1>404</h1>
-            <p>The link is broken or the page has been moved.</p>
-        </div>
-        <div>
-            <img src="./img/mergaite.png" alt="Mergaite">
-        </div>
-    </main>
+        <main>
+            <div>
+                <h1>404</h1>
+                <p>The link is broken or the page has been moved.</p>
+            </div>
+            <div>
+                <img src="./img/mergaite.png" alt="Mergaite">
+            </div>
+        </main>
+    </section>
 </body>
 </html>
